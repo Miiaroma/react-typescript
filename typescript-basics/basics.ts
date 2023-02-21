@@ -44,6 +44,6 @@ let people: {
 
 //Type interference
 
-let course = 'React';
+let course: string | number = 'React - The Complete Guide';
 
-// course = 12341;
+course = 12341;
