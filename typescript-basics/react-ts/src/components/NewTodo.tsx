@@ -23,9 +23,12 @@ const NewTodo: React.FC = () => {
 
   return (
     <form onSubmit={submitHandler} className={classes.form}>
-      <label htmlFor='text'>Todo text</label>
+      <label htmlFor='text'>Add Todo Text</label>
       <input type='text' id='text' ref={todoTextInputRef} />
       <button>Add Todo</button>
+      <p></p>
+      <p></p>
+      <label htmlFor='text'>Todo List</label>
     </form>
   );
 };
